@@ -1,0 +1,14 @@
+RewriteEngine On
+# Forzado a redireccion HTTPS
+#RewriteCond %{HTTPS} off
+#RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# Redireccionar de NO www a wwww
+#RewriteCond %{HTTP_HOST} ^template.com [NC]
+#RewriteRule ^(.*)$ https://www.template.com/$1 [L,R=301]
+# Redireccionar de www a NO wwww
+#RewriteCond %{HTTP_HOST} ^www.template.com$ [NC]
+#RewriteRule ^(.*)$ https://template.com/$1 [L,R=301]
+# Eliminar la extensión .php
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
