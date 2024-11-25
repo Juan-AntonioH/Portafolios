@@ -1,0 +1,9 @@
+{
+    "editor.linkedEditing": true,
+    "editor.guides.bracketPairs": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "window.density.editorTabHeight": "default",
+    "editor.tabCompletion": "off",
+    "workbench.editor.pinnedTabsOnSeparateRow": false,
+    "CodeGPT.apiKey": "Custom"
+}
