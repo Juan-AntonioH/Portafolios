@@ -1,3 +1,4 @@
+// Funciones de cambio de idioma.
 function change_lang(lang) {
     // Cambiar el valor de lang entre 'en' y 'es'
     let newLang = lang === 'en' ? 'es' : 'en';
@@ -12,3 +13,16 @@ function change_lang(lang) {
     };
     xhr.send();
 }
+
+// Funciones de sidebar
+const nav = document.getElementById("navBar");
+const abrirSidebar = document.getElementById("boton_abrir_sidebar");
+const cerrarSidebar = document.getElementById("boton_cerrar_sidebar");
+
+abrirSidebar.addEventListener("click", () => {
+    nav.classList.add("c-nav__visible")
+})
+
+cerrarSidebar.addEventListener("click", () => {
+    nav.classList.remove("c-nav__visible")
+})

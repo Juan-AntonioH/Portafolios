@@ -14,8 +14,8 @@ include "locale/" . $lang . "/" . $lang . ".php";
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <meta name="description" content="Portafolios de Juan Antonio Herraiz">
     <title>Portafolios Juan Antonio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="<?= CSS_ROOT ?>main.css">
-    <script src="<?= JS_ROOT ?>functions.js"></script>
 </head>
 
-<body>
+<body class="g--font-family-serif">
