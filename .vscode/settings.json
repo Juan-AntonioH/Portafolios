@@ -5,5 +5,10 @@
     "window.density.editorTabHeight": "default",
     "editor.tabCompletion": "off",
     "workbench.editor.pinnedTabsOnSeparateRow": false,
-    "CodeGPT.apiKey": "Custom"
+    "CodeGPT.apiKey": "Custom",
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "css.validate": true,
+    "scss.validate": true
 }
